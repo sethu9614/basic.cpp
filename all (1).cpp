@@ -1,6 +1,11 @@
 #include<iostream>
 using namespace std;
 int main(){
-    for(int i=5;i>=0;i--)
-    cout<<i<<"\n ";
+    while(1){
+        int val;
+        cin>>val;
+        if(val==-1){
+            break;
+        }
+    }
 }
